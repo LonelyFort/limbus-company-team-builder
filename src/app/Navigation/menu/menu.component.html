@@ -1,0 +1,13 @@
+<div class="menu">
+    <div class="buton-container">
+        <button class="menu-button"></button>
+        <button class="button-close"></button>
+    </div>
+    <ul class="menu-list">
+        <li class="menu-item" *ngFor="let data of menuData">
+            <a href="" class="menu-link" [routerLink]="data.routerLink">
+                <h2 class="menu-item-text">{{data.label}}</h2>
+            </a>
+        </li>
+    </ul>
+</div>

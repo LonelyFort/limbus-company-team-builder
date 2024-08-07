@@ -1,0 +1,20 @@
+.nav-bar {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar h1 {
+    font-size: large;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu {
+    width: 3rem;
+}
